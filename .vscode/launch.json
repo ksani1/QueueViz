@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Simulation 1",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart",
+            "args": ["--conf",  "conf/sim1.yaml", "--verbose"]
+        },
+        {
+            "name": "Simulation 2",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart",
+            "args": ["--conf",  "conf/sim2.yaml", "--verbose"]
+        },
+        {
+            "name": "Simulation 3",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart",
+            "args": ["--conf",  "conf/sim3.yaml", "--verbose"]
+        },
+        {
+            "name": "Simulation 4",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart",
+            "args": ["--conf",  "conf/sim4.yaml", "--verbose"]
+        },
+        {
+            "name": "Simulation 5",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart",
+            "args": ["--conf",  "conf/sim5.yaml", "--verbose"]
+        }
+    ]
+}
